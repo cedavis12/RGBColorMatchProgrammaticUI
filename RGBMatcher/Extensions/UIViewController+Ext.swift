@@ -12,7 +12,7 @@ extension UIViewController {
     
     func configureNavBar(withTitle title: String) {
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.label]
+        navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.systemIndigo]
         self.title = title
     }
 }

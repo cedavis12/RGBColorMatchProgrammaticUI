@@ -32,4 +32,9 @@ class RGBButton: UIButton {
         setTitleColor(.white, for: .normal)
         translatesAutoresizingMaskIntoConstraints = false
     }
+    
+    func addBorder(withColor color: UIColor, withWidth width: CGFloat) {
+        layer.borderColor = color.cgColor
+        layer.borderWidth = width
+    }
 }

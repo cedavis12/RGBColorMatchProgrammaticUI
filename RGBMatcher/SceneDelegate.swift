@@ -23,6 +23,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = configureNavController()
         
         window?.makeKeyAndVisible()
+        
+        configureNavBar()
     }
     
     func configureNavController() -> UINavigationController {
@@ -31,6 +33,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         navController.addChild(homeVC)
         
         return navController
+    }
+    
+    func configureNavBar() {
+        UINavigationBar.appearance().tintColor = .systemIndigo
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
