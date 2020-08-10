@@ -20,6 +20,7 @@
 		8314A9DD24C38D0F00A52EF9 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8314A9DC24C38D0F00A52EF9 /* UIView+Ext.swift */; };
 		8314A9DF24C3903A00A52EF9 /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8314A9DE24C3903A00A52EF9 /* UIStackView+Ext.swift */; };
 		F1CB307024DD9758008244EE /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB306F24DD9758008244EE /* UIImageView+Ext.swift */; };
+		F1FA4E3024E1DAEC00C93FBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA4E2F24E1DAEC00C93FBB /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8314A9DC24C38D0F00A52EF9 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		8314A9DE24C3903A00A52EF9 /* UIStackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ext.swift"; sourceTree = "<group>"; };
 		F1CB306F24DD9758008244EE /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		F1FA4E2F24E1DAEC00C93FBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				8314A9C224C3796900A52EF9 /* LaunchScreen.storyboard */,
 				8314A9C524C3796900A52EF9 /* Info.plist */,
 				8314A9D424C37FAF00A52EF9 /* Extensions */,
+				F1FA4E3124E1E2B200C93FBB /* Model */,
 				8314A9D524C37FC100A52EF9 /* Views */,
 				8314A9CD24C37F0300A52EF9 /* Controllers */,
 			);
@@ -107,9 +110,25 @@
 		8314A9D524C37FC100A52EF9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8314A9DA24C388D200A52EF9 /* RGBButton.swift */,
+				F1FA4E2D24E1DAB500C93FBB /* Custom Buttons */,
+				F1FA4E2F24E1DAEC00C93FBB /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F1FA4E2D24E1DAB500C93FBB /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8314A9DA24C388D200A52EF9 /* RGBButton.swift */,
+			);
+			path = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		F1FA4E3124E1E2B200C93FBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +210,7 @@
 				8314A9D124C37F1F00A52EF9 /* BeatTheClockViewController.swift in Sources */,
 				8314A9DD24C38D0F00A52EF9 /* UIView+Ext.swift in Sources */,
 				8314A9CF24C37F1500A52EF9 /* FreePlayViewController.swift in Sources */,
+				F1FA4E3024E1DAEC00C93FBB /* HomeView.swift in Sources */,
 				8314A9D324C37F2A00A52EF9 /* TutorialViewController.swift in Sources */,
 				8314A9CC24C37EEF00A52EF9 /* HomeViewController.swift in Sources */,
 			);

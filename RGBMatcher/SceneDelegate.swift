@@ -36,6 +36,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     func configureNavBar() {
+        
         UINavigationBar.appearance().tintColor = .systemIndigo
     }
 

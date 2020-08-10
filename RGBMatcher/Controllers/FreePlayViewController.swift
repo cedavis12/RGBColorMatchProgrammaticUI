@@ -16,3 +16,4 @@ class FreePlayViewController: UIViewController {
         self.configureNavBar(withTitle: "Free Play")
     }
 }
+
