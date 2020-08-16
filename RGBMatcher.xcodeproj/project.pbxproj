@@ -19,6 +19,8 @@
 		8314A9DB24C388D200A52EF9 /* RGBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8314A9DA24C388D200A52EF9 /* RGBButton.swift */; };
 		8314A9DD24C38D0F00A52EF9 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8314A9DC24C38D0F00A52EF9 /* UIView+Ext.swift */; };
 		8314A9DF24C3903A00A52EF9 /* UIStackView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8314A9DE24C3903A00A52EF9 /* UIStackView+Ext.swift */; };
+		83655F6B24E99F5D00AD9640 /* LevelMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83655F6A24E99F5D00AD9640 /* LevelMenuView.swift */; };
+		83655F6D24E9A77D00AD9640 /* FreePlayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83655F6C24E9A77D00AD9640 /* FreePlayHeaderView.swift */; };
 		F1CB307024DD9758008244EE /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB306F24DD9758008244EE /* UIImageView+Ext.swift */; };
 		F1FA4E3024E1DAEC00C93FBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA4E2F24E1DAEC00C93FBB /* HomeView.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		8314A9DA24C388D200A52EF9 /* RGBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBButton.swift; sourceTree = "<group>"; };
 		8314A9DC24C38D0F00A52EF9 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		8314A9DE24C3903A00A52EF9 /* UIStackView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Ext.swift"; sourceTree = "<group>"; };
+		83655F6A24E99F5D00AD9640 /* LevelMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelMenuView.swift; sourceTree = "<group>"; };
+		83655F6C24E9A77D00AD9640 /* FreePlayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreePlayHeaderView.swift; sourceTree = "<group>"; };
 		F1CB306F24DD9758008244EE /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
 		F1FA4E2F24E1DAEC00C93FBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +116,8 @@
 			children = (
 				F1FA4E2D24E1DAB500C93FBB /* Custom Buttons */,
 				F1FA4E2F24E1DAEC00C93FBB /* HomeView.swift */,
+				83655F6A24E99F5D00AD9640 /* LevelMenuView.swift */,
+				83655F6C24E9A77D00AD9640 /* FreePlayHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,8 +209,10 @@
 			files = (
 				F1CB307024DD9758008244EE /* UIImageView+Ext.swift in Sources */,
 				8314A9B824C3796600A52EF9 /* AppDelegate.swift in Sources */,
+				83655F6B24E99F5D00AD9640 /* LevelMenuView.swift in Sources */,
 				8314A9DF24C3903A00A52EF9 /* UIStackView+Ext.swift in Sources */,
 				8314A9DB24C388D200A52EF9 /* RGBButton.swift in Sources */,
+				83655F6D24E9A77D00AD9640 /* FreePlayHeaderView.swift in Sources */,
 				8314A9BA24C3796600A52EF9 /* SceneDelegate.swift in Sources */,
 				8314A9D924C37FFE00A52EF9 /* UIViewController+Ext.swift in Sources */,
 				8314A9D124C37F1F00A52EF9 /* BeatTheClockViewController.swift in Sources */,

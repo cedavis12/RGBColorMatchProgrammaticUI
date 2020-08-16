@@ -15,7 +15,7 @@ import UIKit
 }
 
 class HomeView: UIView {
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         layoutUI()
@@ -46,6 +46,7 @@ class HomeView: UIView {
         rgbText.addAttribute(.foregroundColor, value: UIColor.systemRed, range: NSRange(location: 0, length: 1))
         rgbText.addAttribute(.foregroundColor, value: UIColor.systemBlue, range: NSRange(location: 1, length: 1))
         rgbText.addAttribute(.foregroundColor, value: UIColor.systemGreen, range: NSRange(location: 2, length: 1))
+        rgbText.addAttribute(.foregroundColor, value: UIColor.systemIndigo, range: NSRange(location: 4, length: 11))
         label.attributedText = rgbText
         label.font = UIFont.boldSystemFont(ofSize: 45)
         label.adjustsFontForContentSizeCategory = true

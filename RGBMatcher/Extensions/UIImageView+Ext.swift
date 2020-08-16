@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIImageView {
-    
+
     func applyshadowWithCorner(containerView : UIView, cornerRadious : CGFloat){
         containerView.clipsToBounds = false
         containerView.layer.shadowColor = UIColor.black.cgColor
